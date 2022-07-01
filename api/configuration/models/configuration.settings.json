@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "configurations",
+  "info": {
+    "name": "Configuration",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cpu": {
+      "type": "string"
+    },
+    "ram": {
+      "type": "string"
+    },
+    "disk": {
+      "type": "string"
+    },
+    "vga": {
+      "type": "string"
+    },
+    "display": {
+      "type": "string"
+    },
+    "os": {
+      "type": "string"
+    },
+    "battery": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "size": {
+      "type": "string"
+    },
+    "weight": {
+      "type": "string"
+    },
+    "audio": {
+      "type": "string"
+    },
+    "lan": {
+      "type": "string"
+    },
+    "wifi": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}
