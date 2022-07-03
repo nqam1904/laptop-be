@@ -15,12 +15,6 @@
     "name": {
       "type": "string"
     },
-    "price": {
-      "type": "string"
-    },
-    "price_promotion": {
-      "type": "string"
-    },
     "appearence": {
       "type": "string"
     },
@@ -30,9 +24,6 @@
     },
     "category": {
       "model": "category"
-    },
-    "configuration": {
-      "model": "configuration"
     },
     "images": {
       "collection": "file",
@@ -51,6 +42,57 @@
     },
     "description": {
       "type": "richtext"
+    },
+    "cpu": {
+      "type": "string"
+    },
+    "ram": {
+      "type": "string"
+    },
+    "vga": {
+      "type": "string"
+    },
+    "disk": {
+      "type": "string"
+    },
+    "display": {
+      "type": "string"
+    },
+    "battery": {
+      "type": "string"
+    },
+    "os": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "weight": {
+      "type": "string"
+    },
+    "size": {
+      "type": "string"
+    },
+    "lan": {
+      "type": "string"
+    },
+    "audio": {
+      "type": "string"
+    },
+    "wifi": {
+      "type": "string"
+    },
+    "view": {
+      "type": "integer",
+      "default": 0
+    },
+    "price": {
+      "type": "integer",
+      "default": 0
+    },
+    "price_promotion": {
+      "default": 0,
+      "type": "integer"
     }
   }
 }

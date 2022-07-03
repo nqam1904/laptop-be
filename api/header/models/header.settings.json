@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "categories",
+  "collectionName": "headers",
   "info": {
-    "name": "Category",
-    "description": ""
+    "name": "Header"
   },
   "options": {
     "increments": true,
@@ -12,15 +11,15 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
-      "type": "string"
-    },
-    "description": {
-      "type": "string"
-    },
     "show": {
       "type": "boolean",
       "default": true
+    },
+    "url": {
+      "type": "string"
+    },
+    "categories": {
+      "collection": "category"
     }
   }
 }
