@@ -30,6 +30,10 @@
     "show_banner": {
       "type": "boolean",
       "default": true
+    },
+    "order_by": {
+      "type": "integer",
+      "default": 0
     }
   }
 }

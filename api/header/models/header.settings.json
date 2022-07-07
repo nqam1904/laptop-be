@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "headers",
   "info": {
-    "name": "Header"
+    "name": "Header",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -20,6 +21,10 @@
     },
     "categories": {
       "collection": "category"
+    },
+    "order_by": {
+      "type": "integer",
+      "default": 0
     }
   }
 }
