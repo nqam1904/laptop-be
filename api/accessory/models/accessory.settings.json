@@ -1,0 +1,63 @@
+{
+  "kind": "collectionType",
+  "collectionName": "accessories",
+  "info": {
+    "name": "accessory",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer",
+      "default": 0
+    },
+    "slug": {
+      "type": "string"
+    },
+    "appearence": {
+      "type": "string"
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "count": {
+      "type": "integer",
+      "default": 0
+    },
+    "view": {
+      "type": "integer",
+      "default": 0
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "price_promotion": {
+      "type": "integer",
+      "default": 0
+    },
+    "promotion_content": {
+      "type": "string"
+    },
+    "insurance": {
+      "type": "string",
+      "default": "Bảo hành chính hãng 36 tháng. Hỗ trợ đổi mới trong 7 ngày. "
+    }
+  }
+}
