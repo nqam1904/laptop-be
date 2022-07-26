@@ -21,10 +21,6 @@
     "show": {
       "type": "boolean",
       "default": true
-    },
-    "section": {
-      "via": "category",
-      "model": "section"
     }
   }
 }
