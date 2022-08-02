@@ -2,7 +2,11 @@
   "kind": "collectionType",
   "collectionName": "products",
   "info": {
+<<<<<<< HEAD
     "name": "Sản phẩm laptop",
+=======
+    "name": "Sản phẩm",
+>>>>>>> 4bd516a5b4468a65c17beae176b6cede06f61444
     "description": ""
   },
   "options": {
