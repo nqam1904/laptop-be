@@ -129,6 +129,9 @@
       "pluginOptions": {},
       "default": 0,
       "type": "integer"
+    },
+    "short_config": {
+      "type": "string"
     }
   }
 }
