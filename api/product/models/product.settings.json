@@ -173,23 +173,26 @@
     "cpu_lap": {
       "type": "enumeration",
       "enum": [
-        "Ryzen_5_4600H_6core_12threads",
         "i7_8750H_6core_12threads",
         "i7_9750H_6core_12threads",
         "i9_9900K_8core_16threads",
-        "i7_1065G7_4core_8threads",
         "i7_10750H_6core_12threads",
         "i7_10870H_8core_16threads",
         "i7_10875H_8core_16threads",
-        "i5_1145G7_4core_8threads",
-        "i7_1185G7_4core_8threads",
         "i5_11400H_6core_12threads",
         "i7_11800H_8core_16threads",
+        "i7_12700H_14core_20threads",
+        "Ryzen_5_4600H_6core_12threads",
         "Ryzen_5_5600H_6core_12threads",
         "Ryzen_7_5800H_8core_16threads",
-        "i7_12700H_14core_20threads",
         "Ryzen_5_6600H_6core_12threads",
-        "Ryzen_7_6800H_8core_16threads"
+        "Ryzen_7_6800H_8core_16threads",
+        "i7_10510U_4core_8threads",
+        "i5_1035G1_4core_8threads",
+        "i7_1065G7_4core_8threads",
+        "i5_1135G7_4core_8threads",
+        "i5_1145G7_4core_8threads",
+        "i7_1185G7_4core_8threads"
       ]
     }
   }
