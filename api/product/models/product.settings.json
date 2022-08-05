@@ -200,6 +200,15 @@
         "360Hz"
       ]
     },
+    "vga_lap": {
+      "type": "enumeration",
+      "enum": [
+        "Nvidia_Geforce_RTX_3070_8Gb_(140W)",
+        "Nvidia_Geforce_RTX_3070_8Gb_(130W)",
+        "Nvidia_Geforce_RTX_3070_8Gb_(115W)",
+        "Nvidia_Geforce_RTX 3070_8Gb_(100W)"
+      ]
+    },
     "cpu_lap": {
       "type": "enumeration",
       "enum": [
