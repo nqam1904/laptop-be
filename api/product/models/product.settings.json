@@ -170,6 +170,36 @@
         "2TB_HDD"
       ]
     },
+    "size_display": {
+      "type": "enumeration",
+      "enum": [
+        "13_3",
+        "14",
+        "15_6",
+        "16",
+        "17"
+      ]
+    },
+    "pixel_display": {
+      "type": "enumeration",
+      "enum": [
+        "HD",
+        "FullHD",
+        "QHD",
+        "UHD"
+      ]
+    },
+    "hz_display": {
+      "type": "enumeration",
+      "enum": [
+        "60Hz",
+        "120Hz",
+        "144Hz",
+        "165Hz",
+        "240Hz",
+        "360Hz"
+      ]
+    },
     "cpu_lap": {
       "type": "enumeration",
       "enum": [
