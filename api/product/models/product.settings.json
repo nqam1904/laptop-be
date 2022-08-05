@@ -119,7 +119,7 @@
     "insurance_laptop": {
       "pluginOptions": {},
       "type": "richtext",
-      "default": "Bảo hành chính hãng 36 tháng. Hỗ trợ đổi mới trong 7 ngày. "
+      "default": "Bao test 7 ngày 1 đổi 1. Bảo hành 1 tháng"
     },
     "slug": {
       "pluginOptions": {},
@@ -132,6 +132,65 @@
     },
     "short_config": {
       "type": "string"
+    },
+    "operating_system": {
+      "type": "enumeration",
+      "enum": [
+        "Windows_10",
+        "Windows_11"
+      ],
+      "default": "Windows_10"
+    },
+    "ram_lap": {
+      "type": "enumeration",
+      "enum": [
+        "8GB_bus_2666MHz",
+        "16GB_Bus_2666MHz",
+        "32GB_Bus_2666MHz",
+        "8GB_Bus_3200MHz",
+        "16GB_Bus_3200MH",
+        "32GB_Bus_3200MHz"
+      ]
+    },
+    "ssd_lap": {
+      "type": "enumeration",
+      "enum": [
+        "256GB_SSD_M2_Nvme",
+        "512GB_SSD_M2_Nvme",
+        "1TB_SSD_M2_Nvme",
+        "2TB_SSD_M2_Nvme"
+      ]
+    },
+    "hdd_lap": {
+      "type": "enumeration",
+      "enum": [
+        "240GB_HDD",
+        "500GB_HDD",
+        "1TB_HDD",
+        "2TB_HDD"
+      ]
+    },
+    "cpu_lap": {
+      "type": "enumeration",
+      "enum": [
+        "Ryzen_5_4600H_6core_12threads",
+        "i7_8750H_6core_12threads",
+        "i7_9750H_6core_12threads",
+        "i9_9900K_8core_16threads",
+        "i7_1065G7_4core_8threads",
+        "i7_10750H_6core_12threads",
+        "i7_10870H_8core_16threads",
+        "i7_10875H_8core_16threads",
+        "i5_1145G7_4core_8threads",
+        "i7_1185G7_4core_8threads",
+        "i5_11400H_6core_12threads",
+        "i7_11800H_8core_16threads",
+        "Ryzen_5_5600H_6core_12threads",
+        "Ryzen_7_5800H_8core_16threads",
+        "i7_12700H_14core_20threads",
+        "Ryzen_5_6600H_6core_12threads",
+        "Ryzen_7_6800H_8core_16threads"
+      ]
     }
   }
 }

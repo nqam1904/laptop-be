@@ -57,7 +57,7 @@
     },
     "insurance": {
       "type": "string",
-      "default": "Bảo hành chính hãng 36 tháng. Hỗ trợ đổi mới trong 7 ngày. "
+      "default": "Bao test 7 ngày 1 đổi 1. Bảo hành 1 tháng"
     },
     "category": {
       "model": "category"
