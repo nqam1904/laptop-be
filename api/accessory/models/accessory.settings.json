@@ -61,6 +61,10 @@
     },
     "category": {
       "model": "category"
+    },
+    "show": {
+      "type": "boolean",
+      "default": true
     }
   }
 }

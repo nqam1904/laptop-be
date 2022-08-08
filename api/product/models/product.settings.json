@@ -144,6 +144,9 @@
     "ram_lap": {
       "type": "enumeration",
       "enum": [
+        "8GB_bus_2400MHz",
+        "16GB_Bus_2400MHz",
+        "32GB_Bus_2400MHz",
         "8GB_bus_2666MHz",
         "16GB_Bus_2666MHz",
         "32GB_Bus_2666MHz",
@@ -155,6 +158,7 @@
     "ssd_lap": {
       "type": "enumeration",
       "enum": [
+        "128GB_SSD_M2_Nvme",
         "256GB_SSD_M2_Nvme",
         "512GB_SSD_M2_Nvme",
         "1TB_SSD_M2_Nvme",
@@ -203,10 +207,29 @@
     "vga_lap": {
       "type": "enumeration",
       "enum": [
+        "Intel_UHD_Graphics",
+        "Intel_Iris_Plus",
+        "Nvidia_Geforce_GTX_1650Super_4Gb",
+        "Nvidia_Geforce_GTX_1660Super_6Gb",
+        "Nvidia_Geforce_GTX_1660Ti_6Gb",
+        "Nvidia_Geforce_GTX_1070_8Gb",
+        "Nvidia_Geforce_GTX_1070Ti_8Gb",
+        "Nvidia_Geforce_GTX_1080_8Gb",
+        "Nvidia_Geforce_GTX_1080Ti_11Gb",
+        "Nvidia_Geforce_GTX_2060_6Gb",
+        "Nvidia_Geforce_RTX_2060Super_8Gb",
+        "Nvidia_Geforce_RTX_2070_8Gb",
+        "Nvidia_Geforce_RTX_2070Super_8Gb",
+        "Nvidia_Geforce_RTX_2080_8Gb",
+        "Nvidia_Geforce_RTX_2080Super_8Gb",
+        "Nvidia_Geforce_RTX_2080Ti_11Gb",
+        "Nvidia_Geforce_RTX_3060Ti_8Gb",
         "Nvidia_Geforce_RTX_3070_8Gb_(140W)",
         "Nvidia_Geforce_RTX_3070_8Gb_(130W)",
         "Nvidia_Geforce_RTX_3070_8Gb_(115W)",
-        "Nvidia_Geforce_RTX 3070_8Gb_(100W)"
+        "Nvidia_Geforce_RTX_3070_8Gb_(100W)",
+        "Nvidia_Geforce_RTX_3080_16Gb",
+        "Nvidia_Geforce_RTX_3090_24Gb"
       ]
     },
     "cpu_lap": {
